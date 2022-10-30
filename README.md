@@ -4,6 +4,10 @@
 This repository provides an implementation of the function `deg2rad` that converts the degree value into radians via the formula:
 $\ 1^{\circ} \ = \pi/180 \ \text{rad}$.
 
+/deg2rad contains the realization of the main function.
+
+/test contains the tests that compare the calculated values with the ones from the built-in Python module 'math'.
+
 # 1 Installation
 You can use our programm either on your computer (follow the guide 1.1) or on a docker image (follow the guide 1.2)
 
