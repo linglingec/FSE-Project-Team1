@@ -1,5 +1,7 @@
 # FSE-Project-Team1
 
+Clone the repository
+
 ```commandline
 git clone https://github.com/linglingec/FSE-Project-Team1
 ```
