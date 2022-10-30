@@ -1,7 +1,7 @@
 # FSE-Project-Team1
 
 # 0 Project description
-This repository provides an implementation of the method `deg2rad` that converts the degree value into radians via the formula:
+This repository provides an implementation of the function `deg2rad` that converts the degree value into radians via the formula:
 $\ 1 \ degree \ = \pi/180 \ radian$.
 
 # 1 Installation
