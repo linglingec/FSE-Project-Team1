@@ -1,3 +1,4 @@
+name: Deg2rad workflow
 on:
   push
 jobs:
@@ -5,4 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - 
-        run: echo pusher_checker step
+        name: pull repo
+        uses: actions/checkout@v3
+      -
+        name: testing
+        run: 
+          ./test.sh
