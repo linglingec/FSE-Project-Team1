@@ -8,6 +8,8 @@ $\ 1^{\circ} \ = \pi/180 \ \text{rad}$.
 
 /test contains the tests that compare the calculated values with the ones from the built-in Python module 'math'.
 
+.github/workflows provides a deployment system that automatically runs the tests after pushing the changes into the repository.
+
 # 1 Installation
 You can use our programm either on your computer (follow the guide 1.1) or on a docker image (follow the guide 1.2)
 
