@@ -2,7 +2,7 @@
 
 # 0 Project description
 This repository provides an implementation of the function `deg2rad` that converts the degree value into radians via the formula:
-$\ 1 \ degree \ = \pi/180 \ radian$.
+$\ 1^{\circ} \ = \pi/180 \ radian$.
 
 # 1 Installation
 You can use our programm either on your computer (follow the guide 1.1) or on a docker image (follow the guide 1.2)
