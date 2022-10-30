@@ -3,8 +3,8 @@ from subprocess import Popen, PIPE
 import math
 
 
-def deg2rad_cpp(x: float) -> (float):
-    with Popen(["./deg2rad.exe", str(x)], stdout=PIPE) as p:
+def deg2rad_cpp(x: float) -> float:
+    with Popen(["../deg2rad.exe", str(x)], stdout=PIPE) as p:
         output = float(p.stdout.read().decode("utf-8"))
     return output
 
