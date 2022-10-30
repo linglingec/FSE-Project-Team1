@@ -1,0 +1,8 @@
+on:
+  push
+jobs:
+  pusher_checker:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        run: echo pusher_checker step
