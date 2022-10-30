@@ -62,3 +62,7 @@ To test the programm run
 ```commandline
 ./test.sh
 ```
+
+# 4 Development
+
+In case of the need of calculating other functions, changes should be made in  `deg2rad.cpp`, where new formula should be placed. Then `test_deg2rad.py` should be updated to check new calculations. After the push GitHub workflow will automatically check the correctness of changes and indicate whether the development was successful
