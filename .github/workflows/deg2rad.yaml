@@ -10,7 +10,5 @@ jobs:
         uses: actions/checkout@v3
       -
         name: testing
-        run: |
-          docker build -t fse1 -f Dockerfile .
-          docker run -it fse1
-          ./test.sh
+        run: 
+          chmod +x ./test.sh ./test.sh
