@@ -3,5 +3,5 @@
 
 int main(int argc, char* argv[]) {
     float input = std::stof(argv[1]);
-    std::cout << -deg2rad(input) << std::endl;
+    std::cout << deg2rad(input) << std::endl;
 }
