@@ -1,5 +1,6 @@
 # FSE-Project-Team1
 
+# 1 Installation
 You can use our programm either on your computer or on a docker image
 
 ## 1.1 Installation on your computer
