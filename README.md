@@ -1,27 +1,15 @@
 # FSE-Project-Team1
 
-Clone the repository
+Download `Dockerfile` from this repository and [ubuntu image](https://hub.docker.com/_/ubuntu) on your computer. In terminal run the following code to create a docker image.
 
 ```commandline
-git clone https://github.com/linglingec/FSE-Project-Team1
+docker build -t fse1 -f Dockerfile .
 ```
 
-Enter repository folder
+Run image
 
 ```commandline
-cd FSE-Project-Team1
-```
-
-Make `.sh` files executable
-
-```
-chmod +x build.sh test.sh
-```
-
-Run `build.sh` to compile the program. `deg2rad.exe` should appear in the folder. 
-
-```commandline
-./build.sh
+docker run -it fse1
 ```
 
 Run the following code to transform `57°` to radians
