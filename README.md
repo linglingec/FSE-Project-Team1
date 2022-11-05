@@ -11,7 +11,7 @@ $\ 1^{\circ} \ = \pi/180 \ \text{rad}$.
 .github/workflows provides a deployment system that automatically runs the tests after pushing the changes into the repository.
 
 # 1 Installation
-You can use our programm either on your computer (follow the guide 1.1) or on a docker image (follow the guide 1.2)
+You can use our program either on your computer (follow the guide 1.1) or on a docker image (follow the guide 1.2)
 
 ## 1.1 Installation on your computer
 
@@ -63,7 +63,7 @@ Run the following code to transform `57°` to radians
 
 # 3 Testing
 
-To test the programm run 
+To test the program run 
 
 ```commandline
 ./test.sh
